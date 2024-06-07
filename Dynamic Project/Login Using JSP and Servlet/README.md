@@ -2,7 +2,7 @@
 
 ## Successful Login
 
-* After logging out the page is not redirected to the main page by clicking the back button.
+* After logging out, the page is not redirected to the main page by clicking the back button.
 * We need to compulsorily re-login to visit the main page.
 
 ![Untitled design](https://github.com/ISHA-2112/ISHA-DESAI-ISS-ASSIGNMENT/assets/89999331/bf087fdd-2420-4163-8835-6e80bac6481a)
