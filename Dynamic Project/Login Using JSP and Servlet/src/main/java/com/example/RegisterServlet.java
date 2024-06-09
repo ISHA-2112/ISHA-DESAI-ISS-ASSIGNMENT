@@ -23,6 +23,7 @@ public class RegisterServlet extends HttpServlet {
         String email = request.getParameter("email");
         String password = request.getParameter("password");
         String c_password = request.getParameter("confirm_password");
+        // Check id password and confirm password are matching
         if (!password.equals(c_password)){
         	errorMessage = "Password and Confirm Password don't match";
         	flag = 1;
@@ -30,7 +31,7 @@ public class RegisterServlet extends HttpServlet {
         	session.setAttribute("errorMessage", errorMessage);
         	session.setAttribute("username", name);
             session.setAttribute("email", email);
-          
+            System.out.println("Sent");
             response.sendRedirect("Register.jsp");
         }
         
@@ -38,11 +39,12 @@ public class RegisterServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         
         // Forward the request to result.jsp
-        //request.getRequestDispatcher("result.jsp").forward(request, response);
+     
         if (flag == 0) {
         	
         try {
             Connection conn = DataBaseConnection.getConnection();
+            // insert into database
             String sql = "insert into register (username, email, password) values(?, ?, ?);";
             
             PreparedStatement stmt = conn.prepareStatement(sql);
@@ -50,19 +52,23 @@ public class RegisterServlet extends HttpServlet {
             stmt.setString(2, email); 
             stmt.setString(3, password); 
             stmt.execute();
-            System.out.println("Record Inserted Successfully");
+            
+            // get the letters  of name and surname to make the profile image
             String send_name = "";
             String[] split_name = name.split(" ", 2);
             for (int i=0; i<split_name.length;i++) {
             	send_name = send_name + Character.toString(split_name[i].charAt(0)).toUpperCase();
-            	System.out.println(send_name);
+
             }
-            session.setAttribute("username", send_name);
+            session.setAttribute("name", send_name);
             response.sendRedirect("MainPage.jsp");
 
             stmt.close();
             conn.close();
-        } catch (ClassNotFoundException | SQLException e) {
+        } 
+        
+        // check for repeated username or email
+        catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
             
             if (e.getMessage().contains("Violation of PRIMARY KEY")) {
@@ -72,11 +78,11 @@ public class RegisterServlet extends HttpServlet {
             if (e.getMessage().contains("Violation of UNIQUE KEY")) {
                 errorMessage = "Email already exists. Please choose a different email.";
             }
-            request.setAttribute("errorMessage", errorMessage);
-            request.setAttribute("username", name);
-            request.setAttribute("email", email);
-            request.setAttribute("password", password);
-            request.getRequestDispatcher("Register.jsp").forward(request, response);
+            session.setAttribute("errorMessage", errorMessage);
+            session.setAttribute("username", name);
+            session.setAttribute("email", email);
+            session.setAttribute("password", password);
+            response.sendRedirect("Register.jsp");
 
             out.println("Database connection error: " + errorMessage);
             out.println("Database connection error: " + e.getMessage());

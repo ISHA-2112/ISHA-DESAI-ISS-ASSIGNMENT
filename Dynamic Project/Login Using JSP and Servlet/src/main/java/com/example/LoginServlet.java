@@ -35,14 +35,15 @@ public class LoginServlet extends HttpServlet {
             	System.out.println(send_name);
             }
             ResultSet rs = stmt.executeQuery();
-
+            System.out.println(rs);
             if (rs.next()) {
-                // Login successful, redirect to main.jsp
+                // Login successful, redirect to Main.jsp
             	HttpSession session = request.getSession();
-                session.setAttribute("username", send_name);
-                request.setAttribute("username", send_name);
-                //RequestDispatcher dispatcher = request.getRequestDispatcher("MainPage.jsp");
-                //dispatcher.forward(request, response);
+                session.setAttribute("name", send_name);
+                session.setAttribute("username", username);
+                String email = rs.getString("email");
+                session.setAttribute("email", email);
+            
                 response.sendRedirect("MainPage.jsp");
             } else {
                 // Login failed, redirect back to login.jsp with error message
