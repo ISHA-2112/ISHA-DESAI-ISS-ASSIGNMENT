@@ -1,0 +1,42 @@
+2024-06-07 12:52:30 INFO  example1 - Added transaction: credit, 1000.0, Salary
+2024-06-07 12:52:30 INFO  example1 - Added transaction: debit, 200.0, Groceries
+2024-06-07 12:52:30 INFO  example1 - Added transaction: debit, 150.0, Utilities
+2024-06-07 12:52:30 INFO  example1 - Added transaction: credit, 500.0, Freelance Work
+2024-06-07 12:52:30 INFO  example1 - Added transaction: debit, 100.0, Internet Bill
+2024-06-07 12:52:30 INFO  example1 - Calculated total balance: $1050.0
+2024-06-07 12:52:30 INFO  example1 - Total Balance: $1050.0
+2024-06-07 12:52:30 INFO  example1 - Fetched transaction details
+2024-06-07 12:52:30 INFO  example1 - Type: credit, Amount: 1000.0, Description: Salary
+2024-06-07 12:52:30 INFO  example1 - Type: debit, Amount: 200.0, Description: Groceries
+2024-06-07 12:52:30 INFO  example1 - Type: debit, Amount: 150.0, Description: Utilities
+2024-06-07 12:52:30 INFO  example1 - Type: credit, Amount: 500.0, Description: Freelance Work
+2024-06-07 12:52:30 INFO  example1 - Type: debit, Amount: 100.0, Description: Internet Bill
+2024-06-07 12:53:52 INFO  example1 - Added transaction: credit, 1000.0, Salary
+2024-06-07 12:53:52 INFO  example1 - Added transaction: debit, 200.0, Groceries
+2024-06-07 12:53:52 INFO  example1 - Added transaction: debit, 150.0, Utilities
+2024-06-07 12:53:52 INFO  example1 - Added transaction: credit, 500.0, Freelance Work
+2024-06-07 12:53:52 INFO  example1 - Added transaction: debit, 100.0, Internet Bill
+2024-06-07 12:53:52 INFO  example1 - Calculated total balance: $1050.0
+2024-06-07 12:53:52 INFO  example1 - Total Balance: $1050.0
+2024-06-07 12:53:52 INFO  example1 - Fetched transaction details
+2024-06-07 12:53:52 INFO  example1 - Type: credit, Amount: 1000.0, Description: Salary
+2024-06-07 12:53:52 INFO  example1 - Type: debit, Amount: 200.0, Description: Groceries
+2024-06-07 12:53:52 INFO  example1 - Type: debit, Amount: 150.0, Description: Utilities
+2024-06-07 12:53:52 INFO  example1 - Type: credit, Amount: 500.0, Description: Freelance Work
+2024-06-07 12:53:52 INFO  example1 - Type: debit, Amount: 100.0, Description: Internet Bill
+2024-06-07 12:58:16 INFO  example1 - Added transaction: credit, 1000.0, Salary
+2024-06-07 12:58:16 INFO  example1 - Added transaction: debit, 200.0, Groceries
+2024-06-07 12:58:16 INFO  example1 - Added transaction: debit, 150.0, Utilities
+2024-06-07 12:58:16 INFO  example1 - Added transaction: credit, 500.0, Freelance Work
+2024-06-07 12:58:16 INFO  example1 - Added transaction: debit, 100.0, Internet Bill
+2024-06-07 12:58:16 INFO  example1 - Calculated total balance: $1050.0
+2024-06-07 12:58:16 INFO  example1 - Total Balance: $1050.0
+2024-06-07 12:58:16 INFO  example1 - Fetched transaction details
+2024-06-07 12:58:16 INFO  example1 - Type: credit, Amount: 1000.0, Description: Salary
+2024-06-07 12:58:16 INFO  example1 - Type: debit, Amount: 200.0, Description: Groceries
+2024-06-07 12:58:16 INFO  example1 - Type: debit, Amount: 150.0, Description: Utilities
+2024-06-07 12:58:16 INFO  example1 - Type: credit, Amount: 500.0, Description: Freelance Work
+2024-06-07 12:58:16 INFO  example1 - Type: debit, Amount: 100.0, Description: Internet Bill
+2024-06-09 14:47:23 INFO  example13 - Read finance data:
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company A', balance=10000.0, currency='USD'}
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company B', balance=20000.0, currency='EUR'}

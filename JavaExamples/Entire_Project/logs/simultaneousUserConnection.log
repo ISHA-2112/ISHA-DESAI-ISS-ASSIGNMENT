@@ -1,0 +1,19 @@
+2024-06-09 12:51:34 INFO  example9 - User 3 deposited 179.0, balance: 1179.0
+2024-06-09 12:51:34 INFO  example9 - User 1 withdrew 126.0, balance: 1053.0
+2024-06-09 12:51:34 INFO  example9 - User 2 withdrew 193.0, balance: 860.0
+2024-06-09 12:51:34 INFO  example9 - User 2 deposited 62.0, balance: 922.0
+2024-06-09 12:51:34 INFO  example9 - User 3 withdrew 116.0, balance: 806.0
+2024-06-09 12:51:34 INFO  example9 - User 3 withdrew 81.0, balance: 725.0
+2024-06-09 12:51:34 INFO  example9 - User 1 withdrew 41.0, balance: 684.0
+2024-06-09 12:51:34 INFO  example9 - User 2 deposited 145.0, balance: 829.0
+2024-06-09 12:51:34 INFO  example9 - User 3 withdrew 99.0, balance: 730.0
+2024-06-09 12:51:34 INFO  example9 - User 1 withdrew 158.0, balance: 572.0
+2024-06-09 12:51:35 INFO  example9 - User 2 withdrew 176.0, balance: 396.0
+2024-06-09 12:51:35 INFO  example9 - User 1 deposited 176.0, balance: 572.0
+2024-06-09 12:51:35 INFO  example9 - User 3 deposited 141.0, balance: 713.0
+2024-06-09 12:51:35 INFO  example9 - User 1 withdrew 168.0, balance: 545.0
+2024-06-09 12:51:36 INFO  example9 - User 2 withdrew 1.0, balance: 544.0
+2024-06-09 12:51:36 INFO  example9 - Final balance: 544.0
+2024-06-09 14:47:23 INFO  example13 - Read finance data:
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company A', balance=10000.0, currency='USD'}
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company B', balance=20000.0, currency='EUR'}

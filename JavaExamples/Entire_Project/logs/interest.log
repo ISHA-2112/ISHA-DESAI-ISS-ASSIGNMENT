@@ -1,0 +1,42 @@
+2024-06-07 21:06:30 INFO  example2 - Savings Account Details:
+2024-06-07 21:06:30 INFO  example2 - Account Number: SAV123
+2024-06-07 21:06:30 INFO  example2 - Balance: $1000.0
+2024-06-07 21:06:30 INFO  example2 - Interest applied: $25.0
+2024-06-07 21:06:30 INFO  example2 - Account Number: SAV123
+2024-06-07 21:06:30 INFO  example2 - Balance: $1025.0
+2024-06-07 21:07:03 INFO  example2 - Savings Account Details:
+2024-06-07 21:07:03 INFO  example2 - Account Number: SAV123
+2024-06-07 21:07:03 INFO  example2 - Balance: $1000.0
+2024-06-07 21:07:03 INFO  example2 - Interest applied: $25.0
+2024-06-07 21:07:03 INFO  example2 - Account Number: SAV123
+2024-06-07 21:07:03 INFO  example2 - Balance: $1025.0
+2024-06-07 21:07:07 INFO  example2 - Savings Account Details:
+2024-06-07 21:07:07 INFO  example2 - Account Number: SAV123
+2024-06-07 21:07:07 INFO  example2 - Balance: $1000.0
+2024-06-07 21:07:07 INFO  example2 - Interest applied: $25.0
+2024-06-07 21:07:07 INFO  example2 - Account Number: SAV123
+2024-06-07 21:07:07 INFO  example2 - Balance: $1025.0
+2024-06-07 21:07:35 INFO  example2 - Savings Account Details:
+2024-06-07 21:07:35 INFO  example2 - Account Number: TAR123
+2024-06-07 21:07:35 INFO  example2 - Balance: $4000.0
+2024-06-07 21:07:35 INFO  example2 - Interest applied: $140.0
+2024-06-07 21:07:35 INFO  example2 - Account Number: TAR123
+2024-06-07 21:07:35 INFO  example2 - Balance: $4140.0
+2024-06-07 21:07:39 INFO  example2 - Savings Account Details:
+2024-06-07 21:07:39 INFO  example2 - Account Number: TAR123
+2024-06-07 21:07:39 INFO  example2 - Balance: $4000.0
+2024-06-07 21:07:39 INFO  example2 - Interest applied: $140.0
+2024-06-07 21:07:39 INFO  example2 - Account Number: TAR123
+2024-06-07 21:07:39 INFO  example2 - Balance: $4140.0
+2024-06-07 21:07:58 INFO  example2 - Savings Account Details:
+2024-06-07 21:07:58 INFO  example2 - Account Number: FFR523
+2024-06-07 21:07:58 INFO  example2 - Balance: $7600.0
+2024-06-07 21:07:58 INFO  example2 - Interest applied: $174.79999999999998
+2024-06-07 21:07:58 INFO  example2 - Account Number: FFR523
+2024-06-07 21:07:58 INFO  example2 - Balance: $7774.8
+2024-06-07 21:08:02 INFO  example2 - Savings Account Details:
+2024-06-07 21:08:02 INFO  example2 - Account Number: FFR523
+2024-06-07 21:08:02 INFO  example2 - Balance: $7600.0
+2024-06-07 21:08:02 INFO  example2 - Interest applied: $174.79999999999998
+2024-06-07 21:08:02 INFO  example2 - Account Number: FFR523
+2024-06-07 21:08:02 INFO  example2 - Balance: $7774.8

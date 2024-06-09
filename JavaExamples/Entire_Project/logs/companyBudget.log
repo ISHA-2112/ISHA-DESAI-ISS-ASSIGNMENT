@@ -1,0 +1,4 @@
+2024-06-09 14:35:43 INFO  example11 - Company{name='Company A', revenue=1000000, location='New York'}
+2024-06-09 14:47:23 INFO  example13 - Read finance data:
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company A', balance=10000.0, currency='USD'}
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company B', balance=20000.0, currency='EUR'}

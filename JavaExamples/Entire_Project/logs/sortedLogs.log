@@ -1,0 +1,22 @@
+2024-06-09 11:43:20 INFO  example8 - Transaction{user='Isha', amount=25.0, type='Withdrawal'}
+2024-06-09 11:43:20 INFO  example8 - Transaction{user='Reshma', amount=50.0, type='Withdrawal'}
+2024-06-09 11:43:20 INFO  example8 - Transaction{user='Reshma', amount=75.0, type='Deposit'}
+2024-06-09 11:43:20 INFO  example8 - Transaction{user='Isha', amount=100.0, type='Deposit'}
+2024-06-09 11:43:20 INFO  example8 - Transaction{user='Hemant', amount=200.0, type='Deposit'}
+2024-06-09 11:43:25 INFO  example8 - 
+Transactions sorted by user:
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Hemant', amount=200.0, type='Deposit'}
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Isha', amount=100.0, type='Deposit'}
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Isha', amount=25.0, type='Withdrawal'}
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Reshma', amount=50.0, type='Withdrawal'}
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Reshma', amount=75.0, type='Deposit'}
+2024-06-09 11:43:25 INFO  example8 - 
+Transactions sorted by type:
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Hemant', amount=200.0, type='Deposit'}
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Isha', amount=100.0, type='Deposit'}
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Reshma', amount=75.0, type='Deposit'}
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Isha', amount=25.0, type='Withdrawal'}
+2024-06-09 11:43:25 INFO  example8 - Transaction{user='Reshma', amount=50.0, type='Withdrawal'}
+2024-06-09 14:47:23 INFO  example13 - Read finance data:
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company A', balance=10000.0, currency='USD'}
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company B', balance=20000.0, currency='EUR'}

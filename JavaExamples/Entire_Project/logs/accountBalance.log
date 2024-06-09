@@ -1,0 +1,28 @@
+2024-06-08 20:28:34 INFO  example5 - Initial Balance: 1000.0
+2024-06-08 20:28:34 INFO  example5 - 500.0 deposited successfully.
+2024-06-08 20:28:34 INFO  example5 - Balance after deposit: 1500.0
+2024-06-08 20:28:34 INFO  example5 - 200.0 withdrawn successfully.
+2024-06-08 20:28:34 INFO  example5 - Balance after withdrawal: 1300.0
+2024-06-08 20:28:43 INFO  example5 - Initial Balance: 1000.0
+2024-06-08 20:28:43 INFO  example5 - 500.0 deposited successfully.
+2024-06-08 20:28:43 INFO  example5 - Balance after deposit: 1500.0
+2024-06-08 20:28:43 INFO  example5 - 200.0 withdrawn successfully.
+2024-06-08 20:28:43 INFO  example5 - Balance after withdrawal: 1300.0
+2024-06-08 20:29:01 INFO  example5 - Initial Balance: 1000.0
+2024-06-08 20:29:01 INFO  example5 - 1500.0 deposited successfully.
+2024-06-08 20:29:01 INFO  example5 - Balance after deposit: 2500.0
+2024-06-08 20:29:01 WARN  example5 - Insufficient balance or invalid amount for withdrawal.
+2024-06-08 20:29:01 INFO  example5 - Balance after withdrawal: 2500.0
+2024-06-08 20:29:19 INFO  example5 - Initial Balance: 1000.0
+2024-06-08 20:29:19 INFO  example5 - 7500.0 deposited successfully.
+2024-06-08 20:29:19 INFO  example5 - Balance after deposit: 8500.0
+2024-06-08 20:29:19 INFO  example5 - 6200.0 withdrawn successfully.
+2024-06-08 20:29:19 INFO  example5 - Balance after withdrawal: 2300.0
+2024-06-08 20:29:31 INFO  example5 - Initial Balance: 1000.0
+2024-06-08 20:29:31 INFO  example5 - 7500.0 deposited successfully.
+2024-06-08 20:29:31 INFO  example5 - Balance after deposit: 8500.0
+2024-06-08 20:29:31 INFO  example5 - 6200.0 withdrawn successfully.
+2024-06-08 20:29:31 INFO  example5 - Balance after withdrawal: 2300.0
+2024-06-09 14:47:23 INFO  example13 - Read finance data:
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company A', balance=10000.0, currency='USD'}
+2024-06-09 14:47:23 INFO  example13 - FinanceData{name='Company B', balance=20000.0, currency='EUR'}
