@@ -33,7 +33,7 @@ public class PreparedStatement {
                 stmt.setInt(9, Credit_History); 
         
                 
-                // Execute the stored procedure
+                // Execute the Prepared Statement 
                 stmt.execute();
                 System.out.println("Record Inserted Successfully");
             
