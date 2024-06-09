@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <!-- File Appender -->
+        <File name="File" fileName="logs/financeapp.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </File>
+        <File name="File1" fileName="logs/creditDebit.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </File>
+        <File name="File2" fileName="logs/interest.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </File>
+        <File name="File3" fileName="logs/mutualfundsInterest.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </File>
+        <File name="File4" fileName="logs/creditCardLimit.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </File>
+        <File name="File5" fileName="logs/accountBalance.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </File>
+        <File name="File6" fileName="logs/depositWithdrawal.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Example Logger -->
+        <Logger name="example" level="info" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+        <Logger name="example1" level="info" additivity="false">
+            <AppenderRef ref="File1"/>
+        </Logger>
+        <Logger name="example2" level="info" additivity="false">
+            <AppenderRef ref="File2"/>
+        </Logger>
+        <Logger name="example3" level="info" additivity="false">
+            <AppenderRef ref="File3"/>
+        </Logger>
+        <Logger name="example4" level="info" additivity="false">
+            <AppenderRef ref="File4"/>
+        </Logger>
+        <Logger name="example5" level="info" additivity="false">
+            <AppenderRef ref="File5"/>
+        </Logger>
+        <Logger name="example6" level="info" additivity="false">
+            <AppenderRef ref="File6"/>
+        </Logger>
+
+        <!-- Root Logger -->
+        <Root level="info">
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="File1"/>
+            <AppenderRef ref="File3"/>
+            <AppenderRef ref="File4"/>
+            <AppenderRef ref="File5"/>
+            <AppenderRef ref="File6"/>
+        </Root>
+    </Loggers>
+</Configuration>
